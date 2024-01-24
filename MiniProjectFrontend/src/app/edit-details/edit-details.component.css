@@ -1,0 +1,46 @@
+/* Apply styles to the form container */
+div {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Style form inputs */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+/* Style form buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    margin: 4px
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Add some spacing between form elements */
+br {
+    display: block;
+    margin: 10px 0;
+}

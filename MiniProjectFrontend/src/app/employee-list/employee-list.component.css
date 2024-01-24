@@ -1,0 +1,35 @@
+body {
+    padding: 20px;
+  }
+
+  h1 {
+    color: #007BFF;
+  }
+
+  table {
+    margin-top: 20px;
+  }
+
+  th, td {
+    text-align: center;
+  }
+
+  .btn-add {
+    background-color: #28A745;
+    color: #fff;
+  }
+
+  .btn-view {
+    background-color: #007BFF;
+    color: #fff;
+  }
+
+  .btn-edit {
+    background-color: #FFC107;
+    color: #fff;
+  }
+
+  .btn-delete {
+    background-color: #DC3545;
+    color: #fff;
+  }
